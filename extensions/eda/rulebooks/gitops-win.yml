@@ -8,7 +8,7 @@
 
   rules:
 
-    - name: Deploy Updated Web App on RHEL
+    - name: Deploy Updated Web App on Windows
       condition: event.payload.repository.git_url is match("git://github.com/nmartins0611/evs-win-app.git")
       action:
         run_job_template:
