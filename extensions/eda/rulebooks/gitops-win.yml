@@ -11,4 +11,6 @@
     - name: backup all switches
       condition: event.payload.repository.git_url is match("git://github.com/nmartins0611/evs-win-app.git")
       action:
-       debug:
+        run_job_template:
+        organization: "Default"
+        name: "DeployWeb App Windows"
