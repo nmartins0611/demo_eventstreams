@@ -13,4 +13,4 @@
       action:
         run_job_template:
         organization: "Default"
-        name: "DeployWeb App Windows"
+        name: "Deploy Web App Windows"
