@@ -9,6 +9,6 @@
   rules:
 
     - name: backup all switches
-      condition: event.payload.repository.git_url is match("git://github.com/nmartins0611/evs-win-app.git")
+      condition: event.payload.repository.git_url is match("git://github.com/nmartins0611/evs-rhel-app.git")
       action:
        debug:
