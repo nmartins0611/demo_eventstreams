@@ -9,7 +9,7 @@
   rules:
 
     - name: Deploy Updated Web App on RHEL
-      condition: event.payload.repository.url is match("git://github.com/nmartins0611/evs-rhel-app")
+      condition: event.payload.repository.name is match("evs-rhel-app")
       action:
         run_job_template:
         organization: "Default"
