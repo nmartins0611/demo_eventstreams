@@ -9,7 +9,7 @@
   rules:
 
     - name: Deploy Updated Web App on Windows
-      condition: event.payload.repository.git_url is match("git://github.com/nmartins0611/evs-win-app.git")
+      condition: event.payload.name is match("WINDOWS APP Update")
       action:
         run_job_template:
         organization: "Default"
