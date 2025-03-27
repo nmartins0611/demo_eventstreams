@@ -12,5 +12,5 @@
       condition: event.payload.repository.git_url == "git://github.com/nmartins0611/evs-rhel-app.git"
       action:
         run_job_template:
-        organization: "Default"
-        name: "Deploy Web App RHEL"
+         organization: "Default"
+         name: "Deploy Web App RHEL"
